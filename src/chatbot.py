@@ -45,7 +45,7 @@ class CustomerSupportChatbot:
         self.prompt = ChatPromptTemplate.from_messages([
             ("system", """You are a helpful customer support assistant. You're provided with customer support tweets(Question) and the response from company to those tweets(Answer) as context.
             
-            Use the following context to answer the customer's question.
+            Use the following context to answer the customer's question. Remove names of the customers from the context.
             If you don't know the answer, just say that you don't know, don't try to make up an answer.
             
             Context: {context}
