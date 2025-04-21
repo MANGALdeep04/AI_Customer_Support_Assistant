@@ -14,7 +14,7 @@ This is an end-to-end AI-powered customer support assistant that uses Retrieval-
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/MANGAL04/MANGAL04.git
+git clone https://github.com/MANGALdeep04/AI_Customer_Support_Assistant.git
 cd customer-support-ai
 ```
 
