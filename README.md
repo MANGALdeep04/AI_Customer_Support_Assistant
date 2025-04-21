@@ -28,7 +28,12 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-
+4. Create a .env file 
+```bash
+OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+PORT = 8000
+SEARCH_METHOD=ann
+```
 ## Running the Application
 
 1. Start the FastAPI server:
